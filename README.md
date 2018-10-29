@@ -1,10 +1,10 @@
 # pyweather
 A python based weather script that runs in your CLI.
 
-#Prerequisites
+##Prerequisites
 Python 3+
 
-#How to run
+##How to run
 1: Download to your preferred directory
 2: Ensure you are in the same directory as weather.py
 3: run `python3 weather.py`
