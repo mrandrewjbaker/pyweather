@@ -25,15 +25,15 @@ def getWeather(unit):
 
 
 def chooseUnit():
-    queryUnit = input('What unit would you like to use? F or C: ')
+    queryUnit = input('What unit would you like to use? F or C: ').lower()
     
-    if queryUnit == 'F' or 'f':
-        unit = '&units=imperial'
+    if queryUnit == 'c':
+        unit = '&units=metric'
         
         getWeather(unit)
         
-    elif queryUnit == 'C' or 'c':
-        unit = '&units=metric'
+    elif queryUnit == 'f':
+        unit = '&units=imperial'
         
         getWeather(unit)
         
