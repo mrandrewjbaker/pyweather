@@ -21,4 +21,4 @@ Python 3+
 4. Run `weather`
  
 ### If you are on Windows
-## Coming Soon
+### Coming Soon
