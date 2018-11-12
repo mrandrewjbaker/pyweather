@@ -16,6 +16,13 @@ class weatherConfig:
 class apiInformation:
     pass
 
+def clear():
+    if os.name == 'nt':
+        _ = os.system('cls')
+        
+    else:
+        _ = os.system('clear')
+
 
 def setApiInformation():
     setPostalCode = 'http://api.openweathermap.org/data/2.5/weather?zip={},'.format(weatherConfig.zip)
@@ -121,6 +128,8 @@ def main():
     setWeatherConfig()
     
     setApiInformation()
+    
+    clear()
     
     weatherLoop()
     
